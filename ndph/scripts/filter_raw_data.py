@@ -2,7 +2,7 @@ import os
 import argparse
 import shutil
 import subprocess
-from ImageSelector import ImageSelector
+from ndph.scripts.image_selector import ImageSelector
 
 def extract_frames(input_vid, output_path):
     if not args.yes:

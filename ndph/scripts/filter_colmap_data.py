@@ -1,7 +1,7 @@
 import os
 import json
 import argparse
-from ImageSelector import ImageSelector
+from ndph.scripts.image_selector import ImageSelector
 
 def main(transforms_path, target_count, output_file, groups=None, scalar=None, pretend=False):
     # Determine whether we're working with a directory or a specific JSON file

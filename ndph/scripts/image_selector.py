@@ -1,6 +1,6 @@
 import cv2
 from tqdm import tqdm
-from graphlib import draw_graph
+from ndph.scripts.graphlib import draw_graph
 
 
 class ImageSelector:
